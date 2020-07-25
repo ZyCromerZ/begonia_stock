@@ -56,13 +56,10 @@ struct mtk_drm_private {
 	} commit;
 
 	struct drm_atomic_state *suspend_state;
-<<<<<<< HEAD
 	struct drm_fb_helper fb_helper;
 	struct drm_gem_object *fbdev_bo;
-=======
 
 	bool dma_parms_allocated;
->>>>>>> c1ab4d1cfebfbb32e0657cb97da8d28527d6b2a4
 };
 
 extern struct platform_driver mtk_ddp_driver;
